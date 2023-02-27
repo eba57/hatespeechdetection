@@ -1,0 +1,4 @@
+Grid Search SVM --It took 48 minutes to train the model so it is very time consuming,which makes it very slow to train a model with large ammount of data.
+Baseline Random Forest-Precision: 0.4128 ,Recall: 0.1613 ,F1 Score: 0.232.   These scores are not ideal becuase the F1 is being brought down on how the model predicts the "Hate Speech" label. The weighted F1 score mostly shows how the model is predicting the majority class, "Not Hate Speech". 
+Baseline logistic Regression- takes about 3 seconds to run,Precision: 0.2939 Recall: 0.5699 F1 Score: 0.3878
+Decision Tree-Precision: 0.3609  Recall: 0.4373 F1 Score: 0.3955 Weighted F1 Score: 0.9281
